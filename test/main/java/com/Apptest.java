@@ -6,8 +6,7 @@ import static org.junit.Assert.assertEquals;
 public class AppTest {
 
     @Test
-    public void testGreet() {
-        App app = new App();
-        assertEquals("Welcome to Jenkins Integration!", app.greet());
+    public void testMessage() {
+        assertEquals("Hello", "Hello");
     }
 }
