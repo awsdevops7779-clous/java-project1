@@ -1,4 +1,4 @@
-package com.example;
+package com;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
@@ -11,4 +11,3 @@ public class AppTest {
         assertEquals("Welcome to Jenkins Integration!", app.greet());
     }
 }
-
